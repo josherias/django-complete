@@ -37,6 +37,7 @@ INSTALLED_APPS = [
      "django.contrib.sessions",
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
     'rest_framework',
     'playground',
     "debug_toolbar",
@@ -97,7 +98,7 @@ DATABASES = {
         'NAME': 'storefront',
         'HOST' : 'localhost',
         'USER' : 'root',
-        'PASSWORD' : ''
+        'PASSWORD' : 'password'
     }
 }
 
